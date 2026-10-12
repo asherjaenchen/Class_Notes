@@ -1,0 +1,17 @@
+Static:
+    - variables or methods
+    - an attribute or method belongs to a Class instead of an instance of a class
+    - example: Standard Math Class
+
+Static Method Rules:
+    - You cannot call a static method from an instance method
+    - You can call a static method from a static method
+    - You can call an instance method from a static method
+    - You can call an instance method from an instance method
+
+Static methods are used for:
+    - Class constants
+    - Object Counters
+
+Note: Helper methods are usually static because you don't want to have to create
+an instance for the helper method.
