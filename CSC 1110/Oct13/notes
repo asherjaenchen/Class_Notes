@@ -1,0 +1,7 @@
+Class Constants:
+    - example: public static final int NUM = 0;
+    - accessible across multiple methods and outside of the class
+
+Review:
+    == compares if variables share the same item in memory location
+    equals compares if variables share the same
