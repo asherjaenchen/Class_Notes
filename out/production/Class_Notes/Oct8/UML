@@ -1,0 +1,12 @@
+Point
+-----------------------------------
+-p1:double
+-p2:double
+-----------------------------------
++setX(x:double):void
++setY(y:double):void
++getX():double
++getY():double
++printValues():void
++dist(other:Point):void
++quadrant():void

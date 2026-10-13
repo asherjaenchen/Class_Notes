@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>14.1.0</checkstyleVersion>
+    <scanScope>JavaOnly</scanScope>
+    <suppressErrors>true</suppressErrors>
+    <copyLibs>true</copyLibs>
+    <option name="thirdPartyClasspath" />
+    <option name="activeLocationIds">
+      <option value="8a3415b4-2f74-4a86-8e4f-c5556c35ab38" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="bundled-sun-checks" type="BUNDLED" scope="All" description="Sun Checks">bundled-sun-checks</ConfigurationLocation>
+        <ConfigurationLocation id="bundled-google-checks" type="BUNDLED" scope="All" description="Google Checks">bundled-google-checks</ConfigurationLocation>
+        <ConfigurationLocation id="8a3415b4-2f74-4a86-8e4f-c5556c35ab38" type="HTTP_URL" scope="All" description="MSOE">https://csse.msoe.us/csc1110/MSOE_checkStyle.xml</ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>
