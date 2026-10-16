@@ -11,7 +11,7 @@ Static Method Rules:
 
 Static methods are used for:
     - Class constants
-    -
+    - Object Counters
 
 Note: Helper methods are usually static because you don't want to have to create
 an instance for the helper method.
