@@ -42,15 +42,60 @@ public class ClassPractice {
 //            System.out.println(s[i]);
 //        }
 
-        //Prompt 3
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter an length.");
-        int[] i = new int[in.nextInt()];
+//        //Prompt 3
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter a size for an array");
+//        int size = scan.nextInt();
+//        int[] nums;
+//        nums = new int [size]; //size is 3
+//
+//        for (int i = 0; i < nums.length; i++){
+//            int input = scan.nextInt();
+//            nums[i] = input;
+//        }
+//        int sum = 0;
+//        for (int i = 0; i < nums.length; i++){
+//            sum += nums[i];
+//        }
+//        double avg = (double)sum/nums.length;
+//        int minIndex = 0;
+//        int minValue = nums[0];
+//        for (int i = 1; i < nums.length; i++){
+//            if (nums[i] < minValue){
+//                minValue = nums[i];
+//                minIndex = i;
+//            }
+//        }
 
-        for (int j = 0; j < i.length; j++){
-            System.out.println("Enter an integer.");
-            i[j] = in.nextInt();
+        //Prompt 4
+        int[] numbers = new int[10];
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++){
+            numbers[i] = (int)(Math.random()*10)+1;
+            sum += numbers[i];
+        }
+        double average = (double)sum/numbers.length;
+        int length1 = 0;
+        for (int i = 0; i < numbers.length; i++){
+            if (numbers[i] < average){
+                length1++;
+            }
+        }
+        int[] smaller = new int[length1];
+        int[] larger = new int[numbers.length-length1];
+        int j = 0;
+
+        for (int i = 0; i < smaller.length; i++){
+            if (numbers[i] < average){
+                smaller[j] = numbers[i];
+                j++;
+            }
         }
 
+        int k = 0;
+        for (int l = 0; l < larger.length; l++){
+            larger[k] = numbers[k];
+            l++;
+        }
     }
 }
