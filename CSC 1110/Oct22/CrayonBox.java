@@ -41,14 +41,14 @@ public class CrayonBox {
     }
 
     public boolean hasColor(String color){
-
+        return false;
     }
 
     public String lastColorAdded(){
-
+        return null;
     }
 
     public String display(){
-
+        return null;
     }
 }
