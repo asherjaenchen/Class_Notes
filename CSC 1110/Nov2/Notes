@@ -1,0 +1,12 @@
+Point
+---------
+-x: int
+-y: int
+---------
++point()
++point(x: int, y: int)
++dist(point point):double
++move(x: int, y int)
++toString!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
