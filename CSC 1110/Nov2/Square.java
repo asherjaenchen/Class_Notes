@@ -19,28 +19,28 @@ public class Square {
         this.side = side;
         this.lowerLeft = lowerLeft;
     }
-    public Square(){
-        this(0, );
-    }
-    public int[] move(int dx, int dy){
-
-    }
-    public ArrayList<Point> vertices(){
-
-    }
-    public boolean hit (Point other){
-
-    }
-    public boolean biggerThan(Square other){
-
-    }
-    public String toString(){
-
-    }
-    public static int verifySide(int side){
-
-    }
-    public double area(){
-
-    }
+//    public Square(){
+//        this(0, );
+//    }
+////    public int[] move(int dx, int dy){
+////
+//    }
+//    public ArrayList<Point> vertices(){
+//        return null;
+//    }
+//    public boolean hit (Point other){
+//
+//    }
+//    public boolean biggerThan(Square other){
+//
+//    }
+//    public String toString(){
+//
+//    }
+//    public static int verifySide(int side){
+//
+//    }
+//    public double area(){
+//
+//    }
 }
