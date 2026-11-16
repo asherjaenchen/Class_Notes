@@ -8,7 +8,7 @@
 
 package Nov9;
 
-public class Weapon {
+public class Weapon implements Sellable {
     private int dmg;
 
     public Weapon(int dmg) {

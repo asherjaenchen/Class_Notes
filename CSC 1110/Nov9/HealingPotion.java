@@ -8,7 +8,7 @@
 
 package Nov9;
 
-public class HealingPotion {
+public class HealingPotion implements Sellable {
     private int maxRestore;
 
     public HealingPotion(int maxRestore){

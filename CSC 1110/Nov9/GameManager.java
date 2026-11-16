@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class GameManager {
     static void main() {
-        ArrayList<HealingPotion> inventory = new ArrayList<>();
+        ArrayList<Sellable> inventory = new ArrayList<>();
         for (int i = 0; i < 4; i++){
             int r = (int)(Math.random() * 10) + 5;
             inventory.add(new HealingPotion(r));
