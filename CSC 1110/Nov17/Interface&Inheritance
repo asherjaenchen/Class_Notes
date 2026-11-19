@@ -1,0 +1,21 @@
+Abstract Classes
+    - use inheritance
+    - require classes to use a method blueprint
+    - Solid lines in UML Diagram
+
+Interfaces
+    - use implementation
+    - require classes to use the exact method
+    - Dashed lines in UML Diagram
+
+Similarities
+    - Can have a subclass implement both
+    - subclass can implement multiple interfaces,
+    but not multiple inheritance
+
+
+Inheritance and interfaces are to ways to implement polymorphism (apply same methods
+to different types of objects)
+
+Interfaces are good when we just wanted derived classes to have the same methods
+
